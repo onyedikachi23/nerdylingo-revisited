@@ -1,38 +1,52 @@
 {
   "expo": {
-    "name": "minimal",
-    "slug": "minimal",
+    "name": "nerdylingo",
+    "slug": "nerdylingo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "minimal",
+    "icon": "./src/assets/images/brand/adaptive-icon.png",
+    "scheme": "nerdylingo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
+    "assetBundlePatterns": ["**/*"],
     "android": {
-      "edgeToEdgeEnabled": true,
+      "userInterfaceStyle": "light",
+      "package": "com.nerdylingo.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./src/assets/images/brand/adaptive-icon.png",
+        "backgroundColor": "#F8FAFC"
+      },
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./src/assets/images/brand/logo.svg"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/images/brand/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#F8FAFC"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "../../node_modules/@expo-google-fonts/inter/900Black/Inter_900Black.ttf",
+            "../../node_modules/@expo-google-fonts/inter/400Regular/Inter_400Regular.ttf",
+            "../../node_modules/@expo-google-fonts/inter/500Medium/Inter_500Medium.ttf",
+            "../../node_modules/@expo-google-fonts/inter/600SemiBold/Inter_600SemiBold.ttf",
+            "../../node_modules/@expo-google-fonts/inter/700Bold/Inter_700Bold.ttf",
+            "../../node_modules/@expo-google-fonts/inter/900Black/Inter_900Black.ttf"
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
