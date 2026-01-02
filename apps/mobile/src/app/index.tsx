@@ -8,8 +8,8 @@ import { Image, type ImageStyle, View } from 'react-native';
 import { Uniwind, useUniwind } from 'uniwind';
 
 const LOGO = {
-  light: require('@/assets/images/react-native-reusables-light.png'),
-  dark: require('@/assets/images/react-native-reusables-dark.png'),
+  light: require('@/assets/images/brand/adaptive-icon.png'),
+  dark: require('@/assets/images/brand/adaptive-icon.png'),
 };
 
 const SCREEN_OPTIONS = {
