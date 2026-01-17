@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "nerdylingo",
+    "name": "Nerdy Lingo",
     "slug": "nerdylingo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/brand/adaptive-icon.png",
     "scheme": "nerdylingo",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "assetBundlePatterns": ["**/*"],
     "android": {
@@ -43,7 +43,11 @@
             "../../node_modules/@expo-google-fonts/inter/500Medium/Inter_500Medium.ttf",
             "../../node_modules/@expo-google-fonts/inter/600SemiBold/Inter_600SemiBold.ttf",
             "../../node_modules/@expo-google-fonts/inter/700Bold/Inter_700Bold.ttf",
-            "../../node_modules/@expo-google-fonts/inter/900Black/Inter_900Black.ttf"
+            "../../node_modules/@expo-google-fonts/inter/900Black/Inter_900Black.ttf",
+            "../../node_modules/@expo-google-fonts/geist-mono/400Regular/GeistMono_400Regular.ttf",
+            "../../node_modules/@expo-google-fonts/geist-mono/500Medium/GeistMono_500Medium.ttf",
+            "../../node_modules/@expo-google-fonts/geist-mono/600SemiBold/GeistMono_600SemiBold.ttf",
+            "../../node_modules/@expo-google-fonts/geist-mono/700Bold/GeistMono_700Bold.ttf"
           ]
         }
       ]

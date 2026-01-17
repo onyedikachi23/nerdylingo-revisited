@@ -1,15 +1,16 @@
 {
-	"extends": ["expo/tsconfig.base", "@repo/typescript-config/react.json"],
-	"compilerOptions": {
-		"paths": {
-			"@/*": ["./src/*"]
-			// "#/*": ["../api/src/*"],
-		}
-	},
-	"include": [
-		"src/**/*.ts",
-		"src/**/*.tsx",
-		".expo/types/**/*.ts",
-		"expo-env.d.ts"
-	]
+  "extends": ["expo/tsconfig.base", "@repo/typescript-config/react.json"],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+      // "#/*": ["../api/src/*"],
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "nativewind-env.d.ts"
+  ]
 }
